@@ -9,6 +9,7 @@ RUN apt-get -y install wget \
                        git \
                        pandoc \
                        jq \
+                       python3-pip \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
  
